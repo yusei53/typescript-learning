@@ -44,6 +44,7 @@ const member_v3: TMember_v3 = {
 };
 
 /*
+typeofの備忘録
 JavaScriptのtypeof演算子とは別物 if (typeof n === "string")
 宣言済みの「変数」の型を取得できる
 「変数」に対して使用できる
