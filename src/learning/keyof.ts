@@ -19,12 +19,12 @@ type TForm = {
   type: TFormInput;
 };
 
-const form_ver1: TForm = {
+const form_v1: TForm = {
   title: "name",
   type: "text",
 };
 // もしくは
-const form_ver2: TForm[] = [
+const form_v2: TForm[] = [
   { title: "name", type: "text" },
   { title: "grade", type: "number" },
   { title: "techSkill", type: "number" },
@@ -33,7 +33,9 @@ const form_ver2: TForm[] = [
   // { title: "TFormTitleにないものはコンパイルエラーされる", type: "text" },
 ];
 
-// keyofの備忘録
-// keyofはオブジェクトのプロパティ名を取得する
-// Union型で取得
-// 「型」で使用できる, 変数では使用できない
+/*
+keyofの備忘録
+keyofはオブジェクトのプロパティ名を取得する
+Union型で取得
+「型」で使用できる, 変数では使用できない
+*/
