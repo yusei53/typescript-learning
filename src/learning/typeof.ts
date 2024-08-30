@@ -30,6 +30,11 @@ type定義はextendsを使えない↓↓↓
 type TMember_v3 extends TMember_v2 = {
   grade: number;
 };
+
+使うならこう↓↓↓
+type TMember_v3 = TMember_v2 & {
+  grade: number;
+};
 */
 
 const member_v3: TMember_v3 = {
